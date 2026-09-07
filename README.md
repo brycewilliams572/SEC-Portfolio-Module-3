@@ -1,3 +1,3 @@
-# SEC Portfolio Module 2 
-## Styling the Portfolio: Take the raw HTML pages from Milestone 1 and turn them into a visually appealing, responsive portfolio website.
+# SEC Portfolio Module 3
+## Styling the Portfolio: Bring your static portfolio to life by adding interactive elements and logic to the user interface
 
