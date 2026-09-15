@@ -12,6 +12,14 @@
     --highlight-color: #d6c7b5;
 }
 
+:root[data-theme="dark"] {
+    --primary-color: #22333b;
+    --light-primary-color: #2e4651;
+    --background-color: #1f1c35;
+    --text-color: #f4f0ed;
+    --highlight-color: #49433c;
+
+}
 
 @font-face {
     font-family: 'Fjalla One';
@@ -25,6 +33,7 @@
 
 body{
     background-color: var(--background-color);
+    color: var(--text-color);
     margin-left: 40px;
     margin-right: 40px;
     font-family: 'Libre Baskerville', serif;
@@ -53,18 +62,6 @@ p{
     font-family: 'Libre Baskerville', serif;
     text-align: justify;
 }
-
-/* ul{ 
-
-    color: var(--text-color);
-    font-family: 'Libre Baskerville', serif;
-    text-align: justify;
-    font-size: 16px;
-    background-color: var(--highlight-color);
-    border: 2px solid var(--primary-color);
-    border-radius: 20px;
-    padding: 30px ;
-} */
 
 table{
     border-collapse: collapse;
@@ -146,4 +143,16 @@ td{
         display: block;
         padding: 12px;
     }
+}
+
+.theme-toggle {
+    display: block;
+    margin: 16px auto;
+    padding: 10px 16px;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    background-color: var(--highlight-color);
+    color:var(--text-color);
+    font-family: 'Fjalla One', sans-serif;
+    cursor: pointer;
 }
